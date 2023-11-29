@@ -37,8 +37,6 @@ ani = FuncAnimation(fig, animate, frames=np.linspace(-10, 10, 100), interval=100
 # Show the animation
 plt.show()
 
-if __name__ == '__main__'
-    main()
 
 # Add more Streamlit commands to create your web page
 
