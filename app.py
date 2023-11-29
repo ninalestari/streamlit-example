@@ -4,11 +4,15 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.animation import FuncAnimation
+from your_animation_script import create_animation  # Import the function that creates the animation
 
-def main():
-    st.title('My First Web Page with Streamlit')
-    st.write('Welcome to my web page!')
 
+# Title for the app
+st.title('Interactive Function Plot')
+st.write('Welcome to my web page!')
+
+# Function to create and display the animation
+create_animation()
 
 # Define the function
 def f(x):
