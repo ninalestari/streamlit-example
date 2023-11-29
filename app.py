@@ -1,9 +1,6 @@
 # my_web_page.py
 
 import streamlit as st
-import matplotlib.pyplot as plt
-import numpy as np
-from matplotlib.animation import FuncAnimation
 from your_animation_script import create_animation  # Import the function that creates the animation
 
 
